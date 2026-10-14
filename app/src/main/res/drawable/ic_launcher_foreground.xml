@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 主体圆润小石头造型 (纯白，柔和自然) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 C68,30 80,40 82,54 C84,68 74,78 58,80 C42,82 28,74 26,60 C24,46 40,30 54,30 Z" />
+    <!-- 石头自然结构切面线 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#68B984"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M40,46 C48,42 60,45 68,52" />
+    <!-- 右上角星光修饰 -->
+    <path
+        android:fillColor="#FFF1C7"
+        android:pathData="M78,28 L80,33 L85,35 L80,37 L78,42 L76,37 L71,35 L76,33 Z" />
+</vector>

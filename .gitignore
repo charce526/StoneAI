@@ -1,0 +1,42 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Gradle / Kotlin / Android build outputs
+.gradle/
+.kotlin/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.apks
+*.idsig
+*.log
+
+# Machine-local configuration
+local.properties
+*.local.properties
+.env
+.env.*
+!.env.example
+
+# Signing credentials and private keys
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+keystore.properties
+signing.properties
+secrets.properties
+
+# Service configuration files that may contain project credentials
+google-services.json
+service-account*.json
+
+# OS files
+.DS_Store
+Thumbs.db
